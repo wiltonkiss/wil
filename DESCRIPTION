@@ -1,0 +1,10 @@
+Package: wil
+Title: Wils Functions
+Version: 1.0.0.0000
+Authors@R: person("First", "Last", email = "first.last@example11.com", role = c("aut", "cre"))
+Description: Bespoke functions.
+Depends:
+    R (>= 3.2.1)
+License: Wil
+LazyData: true
+RoxygenNote: 5.0.0.9000
