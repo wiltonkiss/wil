@@ -1,14 +1,16 @@
 #' Re-install the wil package from GitHub
 #'
 #' This function downloads the wil package from GitHub and installs it.
-#' @param loc either homw or work
+#' @param loc Either home or work
 #' @keywords wil
 #' @keywords GitHub
 #' @export
+#' @examples
+#' refresh.wil()
 
 
 refresh.wil <- function(loc){
-		WD <- getwd()
+		    WD <- getwd()
         if(loc == "work"){
         setwd("C:/Users/wtonkiss/AppData/Local/Temp")
         }

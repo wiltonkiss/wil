@@ -7,7 +7,7 @@
 refresh.wil(loc)
 }
 \arguments{
-\item{loc}{either homw or work}
+\item{loc}{Either home or work}
 }
 \description{
 This function downloads the wil package from GitHub and installs it.
